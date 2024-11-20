@@ -10,6 +10,6 @@
 - Récupération des données et création du dataset
 - Entraînement des différents modèles de machine learning
 - Ajustement des hyperparamètres par le biais de validation croisée
-- Sélection du modèle sur la base de
-- Sauvegarde du modèle
-- Création d'une interface pour la prédiction des prix 
+- Sélection du modèle sur la base des métriques suivantes : `MAE` et du `coefficient de détermination`. 
+- Sauvegarde du modèle séelection 
+- Création d'un widget pour la prédiction des prix 
