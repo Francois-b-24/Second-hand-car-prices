@@ -32,4 +32,4 @@ Les caractéristiques présentes dans le jeu de données sont les suivantes :
 | `Emission Co2` |
 
 La varible à prédire est le `prix`.
-Le jeu de données nettoyés se trouve : [dataset] (.propre.csv)
+Le jeu de données nettoyés se trouve : [dataset](./propre.csv)
