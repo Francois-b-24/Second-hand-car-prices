@@ -40,6 +40,6 @@ La varible à prédire est le `prix`.
 | [`scraping.ipynb`](./scraping.ipynb)  | script pour le scraping  |
 |  [`cleaning.py`](./cleaning.py) | Module pour le nettoyage de la base |
 | [`propre.csv`](./propre.csv)  | Base de données nettoyées |
-| [`predictions.py`](./prediction.py)  | Création dataset pour modèles, feature selection, crossvalidation train/test split |
+| [`predictions.py`](./predictions.py)  | Création dataset pour modèles, feature selection, crossvalidation train/test split |
 | [`ParuVendu.ipnyb`](./ParuVendu.ipnyb)  | Fichier contenant les travaux |
 
