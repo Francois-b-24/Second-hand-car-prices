@@ -16,7 +16,8 @@
 
 ## Dataset
 
-Les données utilisées ont été récupérées par des méthodes de web-scraping sur le site [ParuVendu](https://www.paruvendu.fr/voiture-occasion/)
+Les données utilisées ont été récupérées par des méthodes de web-scraping sur le site [ParuVendu](https://www.paruvendu.fr/voiture-occasion/).
+Le script de web-scrping est le suivant : [scraping](./scraping.ipynb)
 
 Les caractéristiques présentes dans le jeu de données sont les suivantes : 
 
@@ -32,4 +33,12 @@ Les caractéristiques présentes dans le jeu de données sont les suivantes :
 | `Emission Co2` |
 
 La varible à prédire est le `prix`.
-Le jeu de données nettoyés se trouve : [dataset](./propre.csv)
+
+| Fichier/Module  | Description  |
+|---|---|
+| [`scraping.ipynb`](./scraping.ipynb)  | script pour le scraping  |
+|  [`cleanin.py`](./cleaning.py) | Module pour le nettoyage de la base |
+| [`propre.csv`](./propre.csv)  | Base de données nettoyées |
+| [`predictions.py`](./prediction.py)  | Création dataset pour modèles, feature selection, crossvalidation train/test split |
+| [`ParuVendu.ipnyb`](./ParuVendu.ipnyb)  | Fichier contenant les travaux |
+
