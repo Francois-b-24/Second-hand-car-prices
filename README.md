@@ -20,13 +20,16 @@ Les données utilisées ont été récupérées par des méthodes de web-scrapin
 
 Les caractéristiques présentes dans le jeu de données sont les suivantes : 
 
-|Colonnes              | 
-| ------------------ |
-| Marque          | 
-| Modèle          | 
-| Llama 3.2 Vision   | 11B        | 7.9GB | `ollama run llama3.2-vision`     |
-| Llama 3.2 Vision   | 90B        | 55GB  | `ollama run llama3.2-vision:90b` |
-| Llama 3.1          | 8B         | 4.7GB | `ollama run llama3.1`            |
-| Llama 3.1          | 70B        | 40GB  | `ollama run llama3.1:70b`        |
-| Llama 3.1          | 405B       | 231GB | `ollama run llama3.1:405b`       |
-| Phi 3 Mini         | 3.8B       | 2.3GB | `ollama run phi3`                |
+|Colonnes| 
+| ------------------|
+| `Marque` | 
+| `Modèle`| 
+| `Kilométrage` |
+|`Nbre chevaux fiscaux` |
+|`Energie` |
+| `Nbre places` | 
+| `Date mise en circulation`| 
+| `Emission Co2` |
+
+La varible à prédire est le `prix`.
+Le jeu de données nettoyés se trouve : [dataset] (.propre.csv)
