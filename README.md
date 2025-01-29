@@ -41,5 +41,5 @@ La varible à prédire est le `prix`.
 |  [`cleaning.py`](./cleaning.py) | Module pour le nettoyage de la base |
 | [`propre.csv`](./propre.csv)  | Base de données nettoyées |
 | [`predictions.py`](./predictions.py)  | Création dataset pour modèles, feature selection, crossvalidation train/test split |
-| [`ParuVendu.ipnyb`](./ParuVendu.ipnyb)  | Fichier contenant les travaux |
+| [`ParuVendu.ipnyb`](./ParuVendu_ML.ipnyb)  | Fichier contenant les travaux |
 
